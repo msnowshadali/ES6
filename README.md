@@ -19,3 +19,24 @@ Example
  Usage
  attendance.addName = "John";
  console.log(attendance.getList);
+
+```
+class Myclassroom{
+
+    constructor(studentNames){
+        this.studentNames = studentNames;
+        
+    }
+	
+	get getList(){
+		return this.studentNames;
+	}
+	
+}
+
+
+obj = new Myclassroom("Noushadali");
+
+console.log(obj.getList);
+
+```
