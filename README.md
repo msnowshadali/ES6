@@ -1,4 +1,5 @@
 **Getter** - A getter is a method that gets the value of a specific property
+
 **Setter** - Setter is a method that sets the value of a specific property.
 
 ```
